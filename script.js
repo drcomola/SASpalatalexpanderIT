@@ -101,7 +101,7 @@ document.getElementById("calcolatore-avanzato").addEventListener("click", functi
 
   document.getElementById("consider-expansion").addEventListener("click", function () {
     const expansionContent = `
-      <p>Insertar valores de expansión y compresión dental:</p>
+      <p>Inserire Valori di espansione e compressione dentale:</p>
       <label>1.6:</label><input type="number" class="small-input" id="espansione-16">
       <label>2.6:</label><input type="number" class="small-input" id="espansione-26">
       <label>3.6:</label><input type="number" class="small-input" id="espansione-36">
