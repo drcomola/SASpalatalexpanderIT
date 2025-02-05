@@ -21,7 +21,7 @@ function calculateResult() {
   risultato += ipercorrezione;
 
   // Mostra il risultato
-  document.getElementById("risultato").textContent = `Risultato: ${risultato.toFixed(2)}`;
+  document.getElementById("risultato").textContent = `I valori mostrati sono dei suggerimenti, rimane compito dell'ortodontista superivisionare che la quantità di espansione sia idonea al proprio paziente. Valore di espansione consigliato: ${risultato.toFixed(2)}`;
 }
 
 document.getElementById("calcola-valore").addEventListener("click", calculateResult);
